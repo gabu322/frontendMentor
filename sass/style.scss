@@ -4,7 +4,7 @@ $secondayColor: #000000;
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto, serif, "sans serif", cursive, fantasy, monospace;
+    font-family: Montserrat, serif, "sans serif", cursive, fantasy, monospace;
 }
 
 .header {
@@ -19,8 +19,8 @@ $secondayColor: #000000;
 }
 
 .headerLogo {
-    height: 80%;
-    width: 8vh;
+    height: 100%;
+    width: 10vh;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
@@ -35,6 +35,8 @@ $secondayColor: #000000;
 
 .headerText {
     color: white;
+    font-size: 35px;
+    font-family: Roboto;
 }
 
 .mainContent {
