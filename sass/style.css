@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, serif, "sans serif", cursive, fantasy, monospace;
+}
+
+.header {
+  width: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50%;
+  height: 10vh;
+  padding: 10px 0px;
+}
+
+.headerLogo {
+  height: 80%;
+  width: 8vh;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 70%;
+  width: 70%;
+}
+
+.headerText {
+  color: white;
+}
+
+.mainContent {
+  background-color: transparent;
+}
+
+.footer {
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
