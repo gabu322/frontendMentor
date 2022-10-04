@@ -1,15 +1,23 @@
-$primaryColor: #ff4043;
-$secondayColor: #000000;
+$primaryColor: #000000;
+$secondayColor: #111111;
+$lighterColor: #222222;
+$baseGap: 0.25rem;
 
 * {
     margin: 0;
     padding: 0;
     font-family: Montserrat, serif, "sans serif", cursive, fantasy, monospace;
+    box-sizing: border-box;
+    font-size: 4rem;
+}
+
+body {
+    background-color: $lighterColor;
 }
 
 .header {
     width: auto;
-    background-color: rgb(13, 12, 12);
+    background-color: $primaryColor;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,11 +44,41 @@ $secondayColor: #000000;
 .headerText {
     color: white;
     font-size: 35px;
-    font-family: Roboto;
+    font-family: Montserrat;
 }
 
 .mainContent {
-    background-color: transparent;
+    max-width: 80%;
+    height: 100vh;
+    background-color: $secondayColor;
+    margin: auto;
+    display: grid;
+    padding: $baseGap;
+    gap: $baseGap;
+}
+
+.challengeCard {
+    width: 300px;
+    height: 400px;
+    background-color: #444444;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.challengePreview {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 50%;
+    object-fit: cover;
+}
+
+.challengeTitle{
+    font-size: 40px;
+    padding-left: 20px;
+}
+.challengeDescription{
+    font-size: 20px;
 }
 
 .footer {
