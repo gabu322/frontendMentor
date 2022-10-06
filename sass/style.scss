@@ -44,7 +44,6 @@ body {
 .headerText {
     color: white;
     font-size: 35px;
-    font-family: Montserrat;
 }
 
 .mainContent {
@@ -55,8 +54,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: $baseGap;
-    justify-content: space-around;
     gap: $baseGap;
+    justify-content: space-around;
 }
 
 .challengeCard {
