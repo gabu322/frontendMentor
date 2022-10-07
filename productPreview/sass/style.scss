@@ -1,0 +1,45 @@
+/*
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+*/
+$darkCyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+
+$darkBlue: hsl(212, 21%, 14%);
+$greyBlye: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, serif, "sans serif", cursive, fantasy, monospace;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: $cream;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+
+    .productImage {
+        width: 50%;
+        height: 100%;
+        background-image: url("/productPreview/images/image-product-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 300px;
+    }
+
+    
+}
+
